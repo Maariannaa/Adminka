@@ -1,0 +1,32 @@
+[
+    {
+    "id": 0,
+    "email": "user1@gmail.com",
+    "status": "active",
+    "firstName": "User",
+    "lastName": "Last",
+    "phone": "+380-11-11-111",
+    "city": "Uzhhorod",
+    "address": "Naberezhna, 1"
+    },
+    {
+    "id": 1,
+    "email": "user1@gmail.com",
+    "status": "active",
+    "firstName": "User1",
+    "lastName": "Last1",
+    "phone": "+380-22-22-222",
+    "city": "Uzhhorod",
+    "address": "Naberezhna, 1"
+    },
+    {
+    "id": 2,
+    "email": "user2@gmail.com",
+    "status": "active",
+    "firstName": "User2",
+    "lastName": "Last2",
+    "phone": "+380-33-33-333",
+    "city": "Uzhhorod",
+    "address": "Naberezhna, 1"
+    }
+]   

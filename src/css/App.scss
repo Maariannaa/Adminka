@@ -1,0 +1,367 @@
+
+
+/*newwwwwwww old*/
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700");
+
+$gradient: linear-gradient(
+	135deg,
+	rgba(91, 36, 122, 0.45) 0%,
+	rgba(27, 206, 223, 0.55) 100%
+);
+$shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+$primary: #002c4a;
+$secondary: #7b7c80;
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+  padding: 0;
+  
+}
+
+a, ul, li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0px;
+  padding: 5px 0px 5px 40px;
+  color:  #a5b1b7;
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+body {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+  background: linear-gradient(#7b7c80, #7b7c80);
+	font-family: "Raleway", sans-serif;
+}
+
+.App-header {
+  height: 125px;
+  width: calc(100% + 210px);
+  padding: 5px;
+  margin: -70px;
+  color:#fff;
+  font-size: 1.8em;
+  font-weight: bolder;
+  animation: text 1.7s 1;
+}
+
+.App-title {
+  height: 144px;
+  margin: -36px;
+  color: $primary;
+}
+
+#avatar {
+  position: relative;
+  top: -100px;
+  left: 360px;
+  height: 177px;
+  width: 100%;
+  background-color: $primary;
+  border-radius: 50%;
+  display: -webkit-box;
+}
+
+#avatar-2 {
+position: relative;
+color: #fff;
+font-weight: bolder;
+font-size: 1.5em;
+left: 200px;
+height: 177px;
+width: 100%;
+background-color: $primary;
+border-radius: 50%;
+display: -webkit-box;
+}
+
+#avatar-foto {
+  display: -webkit-inline-box;
+  margin: -11px 211px 30px -167px;
+}
+
+#header {
+  position: relative;
+  top: -150px;
+  padding-left: 25px;
+  padding: -12px;
+  border-block-end: 13;
+  border-left: $primary solid 20px;
+  font-size: 3em;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-div {
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  padding: 0px 10px 0px 0px;
+}
+
+#btn {
+  margin: 20px 0px 0px -50px;
+  text-align: end;
+}
+
+nav {
+  position: relative;
+  right: 185px;
+}
+
+#main {
+	position: relative;
+	width: 800px;
+	height: 490px;
+	left: 30px;
+	border-radius: 10px;
+	box-shadow: $shadow;
+	background-color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.l {
+  left: 0;
+}
+
+/* Control the right side */
+.r {
+  right: 0;
+  background: url('/fon2.jpg');
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+#table {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	left: 30px;
+  padding: 7px;
+	border-radius: 10px;
+	box-shadow: $shadow;
+	background-color: white;
+}
+
+
+#left {
+	position: relative;
+	background: $gradient,
+    url("/bench.jpg");
+  background-size: cover;
+  background-position: left;
+  height: calc(100% + -15px);
+  width: 55%;
+  top: -20px;
+  left: -50px;
+  padding: 10px 25px;
+	box-shadow: $shadow;
+	color: white;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+}
+
+#foto {
+	position: relative;
+	background: $gradient,
+    url("/camera.jpg");
+  background-size: cover;
+  background-position: center;
+  height: calc(100% + 50px);
+  width: 60%;
+  top: -27px;
+  left: -30px;
+	box-shadow: $shadow;
+	color: white;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+}
+
+#right {
+	position: absolute;
+	width: calc(60% - 40px);
+	height: 100%;
+	top: 0;
+	left: 40%;
+	display: flex;
+	flex-flow: column nowrap;
+	padding-left: 20px;
+}
+
+#right form {
+	// display: flex;
+	// flex-flow: column nowrap;
+  // margin-top: 13%;
+  // margin-left: 30%;
+  // width: 50%;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column;
+  margin-top: -20%;
+  margin-left: 77%;
+  width: 50%;
+}
+
+#form {
+	display: flex;
+	flex-flow: column nowrap;
+  margin-top: 13%;
+  margin-left: 30%;
+  width: 50%;
+}
+
+.icon {
+  height: 45px;
+  top: -95px;
+  left: 65px;
+  position: relative;
+}
+
+#icon-home{
+  height: 45px;
+  margin: 0px 15px -5px;
+}
+
+.value {
+	border: none;
+  border-bottom: 1px solid #ccc;
+  color: $primary;
+  font-weight: bolder;
+  font-size: 1em;
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
+
+.inactive {
+	border: none;
+  border-bottom: 1px solid #ccc;
+  color: #f6f6fa;
+  font-weight: bolder;
+  font-size: 1em;
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
+
+.particles{
+  position: relative;
+  top: 200px;
+  margin: 20px 20px;
+}
+
+#active {
+  color: #fff;
+  font-weight: bolder;
+  padding: 40px 30px;
+}
+ 
+input, select {
+	border: none;
+  border-bottom: 1px solid #ccc;
+  margin-top: 3.5px;
+  margin-bottom: 30px;
+  position: relative;
+  color: $primary;
+  font-weight: bolder;
+  font-size: 1em;
+}
+
+#right form .form-field {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	margin-bottom: 12.5px;
+}
+
+button[type="submit"] {
+	background: linear-gradient(
+								135deg,
+								$primary 0%,
+								$secondary 100%
+							);
+	padding: 5px;
+	border: none;
+	border-radius: 50px;
+	color: white;
+	font-weight: bolder;
+	font-size: 12pt;
+  margin-top: 10px;
+  width: 60%;
+}
+
+button[type="submit"]:disabled {
+	background: linear-gradient(
+								
+                #e6e6e6, #bbbbbb
+							);
+	padding: 5px;
+	border: none;
+	border-radius: 50px;
+	color: white;
+	font-weight: 400;
+	font-size: 12pt;
+  margin-top: 10px;
+  width: 60%;
+}
+
+button[type="submit"]:hover {
+	background: transparent;
+	box-shadow: 0 0 0 3px $primary;
+  color: $primary;
+  font-weight: bolder;
+}
+
+li:hover {
+  background: transparent;
+	box-shadow: 0 0 0 3px $primary;
+	color: #fff;
+}
+
+a:hover{
+	color: #fff;
+}
+
+@keyframes text {
+  0% {
+    color: #a5b1b7;
+    margin-left: -60px;
+  }
+  30%{
+    color: #a5b1b7;
+    letter-spacing: 10px;
+    margin-left: -50px;
+  }
+  85%{
+    color: #a5b1b7;
+    letter-spacing: 5px;
+    margin-left: -40px;
+  }
+}
